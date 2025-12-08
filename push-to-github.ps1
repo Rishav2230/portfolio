@@ -63,6 +63,13 @@ Write-Host "Committing changes..." -ForegroundColor Yellow
 Write-Host "Setting main branch..." -ForegroundColor Yellow
 & $gitCmd branch -M main
 
+# Pull remote changes first (if any)
+Write-Host "Pulling remote changes..." -ForegroundColor Yellow
+& $gitCmd pull origin main --allow-unrelated-histories --no-edit 2>$null
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "No remote changes or pull completed." -ForegroundColor Gray
+}
+
 # Push to GitHub
 Write-Host "Pushing to GitHub..." -ForegroundColor Yellow
 Write-Host ""
