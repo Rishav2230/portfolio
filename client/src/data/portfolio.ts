@@ -39,5 +39,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
     email: "mailto:rishav@example.com",
+    instagram: "https://instagram.com/rishav_2230",
+    whatsapp: "https://wa.me/8271616422",
   },
 };

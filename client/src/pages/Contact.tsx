@@ -3,7 +3,7 @@ import { NeonButton } from "@/components/ui/NeonButton";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Instagram, MessageCircle } from "lucide-react";
 import { portfolioData } from "@/data/portfolio";
 
 export default function Contact() {
@@ -66,6 +66,8 @@ export default function Contact() {
               { icon: Linkedin, label: "LinkedIn", href: portfolioData.socials.linkedin },
               { icon: Twitter, label: "Twitter", href: portfolioData.socials.twitter },
               { icon: Mail, label: "Email", href: portfolioData.socials.email },
+              { icon: Instagram, label: "Instagram", href: portfolioData.socials.instagram },
+              { icon: MessageCircle, label: "WhatsApp", href: portfolioData.socials.whatsapp },
             ].map((social, i) => (
               <a
                 key={social.label}
