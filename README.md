@@ -32,8 +32,8 @@ A futuristic, high-performance portfolio website built with React, TypeScript, a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ravefolio.git
-   cd ravefolio
+   git clone https://github.com/Rishav2230/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**
@@ -63,7 +63,7 @@ A futuristic, high-performance portfolio website built with React, TypeScript, a
 ## 📁 Project Structure
 
 ```
-ravefolio/
+portfolio/
 ├── client/              # Frontend React application
 │   ├── src/
 │   │   ├── components/  # React components
@@ -149,4 +149,3 @@ MIT License - feel free to use this project for your own portfolio!
 ---
 
 ⭐ Star this repo if you find it helpful!
-
