@@ -1,0 +1,43 @@
+export const portfolioData = {
+  name: "Rishav Kumar",
+  role: "BCA Student | AI & Technology Enthusiast",
+  about: "I am a futuristic developer obsessed with the intersection of AI, design, and raw code. Currently building the next generation of automation tools.",
+  skills: [
+    { name: "C", level: 80, category: "Languages" },
+    { name: "C++", level: 75, category: "Languages" },
+    { name: "HTML", level: 95, category: "Frontend" },
+    { name: "CSS", level: 90, category: "Frontend" },
+    { name: "Replit Agentic AI", level: 85, category: "AI" },
+    { name: "Problem Solving", level: 90, category: "Core" },
+    { name: "AI Automation", level: 80, category: "AI" },
+  ],
+  projects: [
+    {
+      id: 1,
+      title: "AI Automation Script",
+      description: "A self-healing automation script built with Replit Agentic AI that optimizes workflow efficiency by 300%.",
+      tech: ["Python", "Replit AI", "Automation"],
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
+    },
+    {
+      id: 2,
+      title: "Student Record System",
+      description: "Robust C-based memory management system for handling large-scale student databases with O(1) retrieval.",
+      tech: ["C", "Data Structures", "CLI"],
+      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000",
+    },
+    {
+      id: 3,
+      title: "Portfolio Website",
+      description: "The site you're looking at. High-performance, 3D-accelerated personal brand identity.",
+      tech: ["HTML", "CSS", "WebGL"],
+      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1000",
+    },
+  ],
+  socials: {
+    github: "https://github.com",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+    email: "mailto:rishav@example.com",
+  },
+};
