@@ -1,0 +1,236 @@
+✅ Replit Agent Prompt — Build My Gen-Z Rave Portfolio (Next.js + TS + Three.js + Barba.js)
+
+PROMPT START — COPY EVERYTHING BELOW
+
+You are an expert full-stack engineer specializing in Next.js 14 (App Router) + TypeScript + Three.js + Barba.js with expertise in modern Gen-Z design systems, rave/dark-tech aesthetics, advanced animations, and portfolio UX.
+
+Your task:
+Build a complete, production-ready personal portfolio website for me with the following requirements.
+
+1️⃣ TECH STACK REQUIREMENTS
+
+Use ONLY:
+
+Next.js 14 (App Router)
+
+TypeScript
+
+TailwindCSS with custom dark theme
+
+Framer Motion for micro-interactions
+
+Three.js for 3D hero section + background effects
+
+Barba.js for smooth page transitions
+
+ShadCN/UI for reusable components
+
+ESLint + Prettier configured properly
+
+The code must be clean, modular, optimized, and follow best practices.
+
+2️⃣ VISUAL + DESIGN GUIDELINES
+
+Create a Gen-Z Dark Rave Theme:
+
+Deep blacks, neon cyan, magenta, violet glows
+
+Futuristic typography
+
+Glitch effects
+
+Subtle noise & grain
+
+Fluorescent hover states
+
+Motion-driven transitions
+
+High-contrast minimal layout
+
+The vibe:
+Cyber rave × Techno × Futuristic × Energetic
+
+3️⃣ PAGES TO INCLUDE
+
+Build the following pages with Barba.js transitions:
+
+Home Page (with Hero)
+
+3D animated object using Three.js (sphere, particles, or custom shader)
+
+Neon glow headline
+
+Subtle camera movement
+
+Animated floating elements
+
+CTA buttons (View Projects / Contact Me)
+
+About Page
+
+My introduction
+
+Timeline of experience / education
+
+Animated skill graph
+
+Rave-style highlight cards
+
+Skills Page
+
+Categorized skill groups
+
+Animated skill bars or radar chart
+
+Icons made neon/glowing
+
+Projects Page
+
+Grid of rave-styled project cards
+
+On hover → 3D tilt + glow
+
+Each project opens a detailed animated modal/page
+
+Contact Page
+
+Minimal dark neon form
+
+Socials with glow hover
+
+Animated underline interactions
+
+4️⃣ DATA TO USE IN THE PORTFOLIO
+
+Use the following placeholder data (later I will update):
+
+Name: Rishav Kumar
+Role: BCA Student | AI & Technology Enthusiast
+Skills:
+
+C
+
+C++
+
+HTML
+
+CSS
+
+Replit Agentic AI
+
+Problem Solving
+
+AI Automation
+
+Projects:
+
+AI Automation Script (Replit Agentic AI)
+
+Student Record System (C Program)
+
+Portfolio Website (HTML/CSS)
+
+Keep data in a /data folder as TypeScript objects.
+
+5️⃣ FEATURES TO ADD
+General Features
+
+Fully responsive
+
+Soft smooth scroll
+
+Lazy-loaded images
+
+Optimized hydration
+
+Reusable components
+
+Animation Features
+
+Barba.js page transitions
+
+Framer Motion micro-interactions
+
+Three.js animated background
+
+Hover glow effects
+
+Text glitch animation
+
+Unique Features (IMPORTANT)
+
+Add at least 3 completely unique interactions, e.g.:
+
+“Rave Mode” toggle → adds high-energy animations & color pulses
+
+Neon cursor trail (particles following pointer)
+
+3D kinetic typography in the hero section
+
+6️⃣ OUTPUT FORMAT
+
+Generate the complete project folder including:
+
+app/ with pages and layouts
+
+components/ for UI elements
+
+hooks/
+
+data/
+
+lib/three/ for 3D scenes
+
+Full Tailwind config
+
+Full package.json
+
+Barba.js configuration integrated into Next.js
+
+All CSS, utility classes, and animations
+
+Everything should work out of the box in Replit.
+
+7️⃣ DELIVERABLE
+
+Provide:
+
+Project file structure
+
+All code files
+
+Three.js setup
+
+Barba.js transition logic
+
+Tailwind + TS config
+
+Custom animations
+
+Instructions to run on Replit
+
+8️⃣ FINAL REQUIREMENTS
+
+DO NOT write explanations unless necessary
+
+DO NOT half-complete files
+
+Provide full working code
+
+Keep everything clean, readable, and well-commented
+
+Follow best practices for Next.js + TS
+
+Make sure every page is fully animated
+
+PROMPT END — COPY EVERYTHING ABOVE
+
+If you want, I can also generate:
+
+✅ Custom 3D shader for your hero
+✅ Custom rave-themed logo text
+✅ Your brand palette + typography set
+✅ Custom 404 rave animation
+✅ Extra unique features (AI-generated background, etc.)
+
+Just tell me!
