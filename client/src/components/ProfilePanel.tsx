@@ -254,7 +254,12 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
                     />
                   </li>
                   <li className="text-foreground font-sora text-sm">
-                    • Certificate 2 — Provider — Year
+                    <div className="mb-2">• Certificate 2</div>
+                    <img
+                      src="/ce.jpeg"
+                      alt="Certificate 2"
+                      className="ml-4 rounded-md border border-primary/30 shadow-[0_0_20px_rgba(0,243,255,0.25)] max-w-full h-auto"
+                    />
                   </li>
                 </ul>
               </motion.section>
