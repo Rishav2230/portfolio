@@ -246,7 +246,12 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
                 </div>
                 <ul className="space-y-3 ml-7">
                   <li className="text-foreground font-sora text-sm">
-                    • Certificate 1 — Provider — Year
+                    <div className="mb-2">• Certificate 1</div>
+                    <img
+                      src="/certi.jpeg"
+                      alt="Certificate 1"
+                      className="ml-4 rounded-md border border-primary/30 shadow-[0_0_20px_rgba(0,243,255,0.25)] max-w-full h-auto"
+                    />
                   </li>
                   <li className="text-foreground font-sora text-sm">
                     • Certificate 2 — Provider — Year
