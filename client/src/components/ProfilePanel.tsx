@@ -50,7 +50,6 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
       opacity: 1,
       transition: {
         duration: 0.5,
-        ease: [0.4, 0, 0.2, 1],
       },
     },
     exit: {
@@ -58,7 +57,6 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
       opacity: 0,
       transition: {
         duration: 0.3,
-        ease: [0.4, 0, 0.2, 1],
       },
     },
   };
@@ -73,7 +71,6 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
       opacity: 1,
       transition: {
         duration: 0.5,
-        ease: [0.4, 0, 0.2, 1],
       },
     },
     exit: {
@@ -81,7 +78,6 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
       opacity: 0,
       transition: {
         duration: 0.3,
-        ease: [0.4, 0, 0.2, 1],
       },
     },
   };
@@ -148,21 +144,21 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
                     <Mail className="w-4 h-4" />
                     <span className="text-sm font-space-grotesk font-semibold uppercase tracking-wider">Email:</span>
                   </div>
-                  <p className="text-foreground font-sora ml-6">your-email-here</p>
+                  <p className="text-foreground font-sora ml-6">rajvikash8297@gmail.com</p>
                 </div>
                 <div className="space-y-3 mt-4">
                   <div className="flex items-center gap-2 text-primary">
                     <Phone className="w-4 h-4" />
                     <span className="text-sm font-space-grotesk font-semibold uppercase tracking-wider">Phone:</span>
                   </div>
-                  <p className="text-foreground font-sora ml-6">your-number-here</p>
+                  <p className="text-foreground font-sora ml-6">6203296161</p>
                 </div>
                 <div className="space-y-3 mt-4">
                   <div className="flex items-center gap-2 text-primary">
                     <MapPin className="w-4 h-4" />
                     <span className="text-sm font-space-grotesk font-semibold uppercase tracking-wider">Address:</span>
                   </div>
-                  <p className="text-foreground font-sora ml-6">your-address-here</p>
+                  <p className="text-foreground font-sora ml-6">kadamkuan congress maidan</p>
                 </div>
               </motion.section>
 
@@ -173,15 +169,9 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
                   <h3 className="text-lg font-space-grotesk font-bold uppercase tracking-wider">EDUCATION</h3>
                 </div>
                 <ul className="space-y-3 ml-7">
-                  <li className="text-foreground font-sora text-sm">
-                    • 10th: School Name — Year — Percentage
-                  </li>
-                  <li className="text-foreground font-sora text-sm">
-                    • 12th: School Name — Year — Percentage
-                  </li>
-                  <li className="text-foreground font-sora text-sm">
-                    • UG: BCA — College Name — Year — CGPA
-                  </li>
+                  <li className="text-foreground font-sora text-sm">• 10th: Oxbridge Convent High School — Percentage: 59.9</li>
+                  <li className="text-foreground font-sora text-sm">• 12th: S.G.D. Patliputra — Percentage: 68</li>
+                  <li className="text-foreground font-sora text-sm">• UG: BCA — Arcard Business College</li>
                 </ul>
               </motion.section>
 
@@ -314,21 +304,21 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
                     <Mail className="w-4 h-4" />
                     <span className="text-sm font-space-grotesk font-semibold uppercase tracking-wider">Email:</span>
                   </div>
-                  <p className="text-foreground font-sora ml-6">your-email-here</p>
+                  <p className="text-foreground font-sora ml-6">rajvikash8297@gmail.com</p>
                 </div>
                 <div className="space-y-3 mt-4">
                   <div className="flex items-center gap-2 text-primary">
                     <Phone className="w-4 h-4" />
                     <span className="text-sm font-space-grotesk font-semibold uppercase tracking-wider">Phone:</span>
                   </div>
-                  <p className="text-foreground font-sora ml-6">your-number-here</p>
+                  <p className="text-foreground font-sora ml-6">6203296161</p>
                 </div>
                 <div className="space-y-3 mt-4">
                   <div className="flex items-center gap-2 text-primary">
                     <MapPin className="w-4 h-4" />
                     <span className="text-sm font-space-grotesk font-semibold uppercase tracking-wider">Address:</span>
                   </div>
-                  <p className="text-foreground font-sora ml-6">your-address-here</p>
+                  <p className="text-foreground font-sora ml-6">kadamkuan congress maidan</p>
                 </div>
               </motion.section>
 
@@ -339,15 +329,9 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
                   <h3 className="text-lg font-space-grotesk font-bold uppercase tracking-wider">EDUCATION</h3>
                 </div>
                 <ul className="space-y-3 ml-7">
-                  <li className="text-foreground font-sora text-sm">
-                    • 10th: School Name — Year — Percentage
-                  </li>
-                  <li className="text-foreground font-sora text-sm">
-                    • 12th: School Name — Year — Percentage
-                  </li>
-                  <li className="text-foreground font-sora text-sm">
-                    • UG: BCA — College Name — Year — CGPA
-                  </li>
+                  <li className="text-foreground font-sora text-sm">• 10th: Oxbridge Convent High School — Percentage: 59.9</li>
+                  <li className="text-foreground font-sora text-sm">• 12th: S.G.D. Patliputra — Percentage: 68</li>
+                  <li className="text-foreground font-sora text-sm">• UG: BCA — Arcard Business College</li>
                 </ul>
               </motion.section>
 
@@ -431,7 +415,6 @@ export function ProfilePanel({ isOpen, onClose }: ProfilePanelProps) {
               </motion.section>
             </motion.div>
           </motion.div>
-        
         </>
       )}
     </AnimatePresence>

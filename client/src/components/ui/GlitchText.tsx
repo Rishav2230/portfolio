@@ -4,13 +4,14 @@ import React from "react";
 interface GlitchTextProps {
   text: string;
   className?: string;
-  as?: React.ElementType;
+  as?: "span" | "div";
 }
 
-export function GlitchText({ text, className = "", as: Component = "span" }: GlitchTextProps) {
+export function GlitchText({ text, className = "", as = "span" }: GlitchTextProps) {
+  const Tag = as;
   return (
-    <Component className={`glitch-wrapper relative inline-block ${className}`} data-text={text}>
+    <Tag className={`glitch-wrapper relative inline-block ${className}`} data-text={text}>
       {text}
-    </Component>
+    </Tag>
   );
 }

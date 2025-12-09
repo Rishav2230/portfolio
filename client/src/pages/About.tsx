@@ -24,20 +24,11 @@ export default function About() {
           </div>
           
           <h3 className="text-2xl font-orbitron text-white mb-6">Background</h3>
-          <div className="text-muted-foreground font-rajdhani text-lg leading-relaxed space-y-4 mb-6">
-            <p>
-              hello everyone my name is rishav kumar and i am currently studying in 3rd year this is very important for me because i learn mmany new things and improved my self a lot.
-            </p>
-            <p>
-              During the last year, I participated in [any activity / project / competition], and it helped me become more confident and responsible. I also worked hard in my studies and achieved good results. Because of the experiences I gained last year, I feel more motivated and focused now.
-            </p>
-            <p>
-              My hobbies include [your hobbies], and in the future, I want to become [your goal]. I believe that with dedication and continuous learning, I can achieve my dreams.
-            </p>
-            <p>
-              Thank you! ✨
-            </p>
-          </div>
+          <p className="text-muted-foreground font-rajdhani text-lg leading-relaxed mb-6">
+            I am a student at the intersection of creativity and logic. My journey started with C programming,
+            but my passion quickly evolved into building intelligent systems using AI.
+            I believe code is modern magic, and I aim to be a wizard of the web.
+          </p>
           <div className="h-1 w-20 bg-gradient-to-r from-primary to-transparent" />
         </motion.div>
 
