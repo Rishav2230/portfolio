@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { ReactNode } from "react";
 
-interface NeonButtonProps extends Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, "onAnimationStart" | "onDragStart" | "onDragEnd" | "onDrag"> {
+interface NeonButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   variant?: "primary" | "secondary";
 }
